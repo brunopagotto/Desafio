@@ -1,0 +1,44 @@
+# DBA Challenge - Bike Stores Inc
+
+Este repositório contém a solução para o desafio de banco de dados da empresa Bike Stores Inc, com o objetivo de gerar métricas relevantes para as equipes de Marketing e Comercial. O projeto envolve a criação de consultas SQL para extrair dados úteis a partir de um conjunto de dados de vendas, clientes, produtos, estoques, marcas, funcionários, entre outros.
+
+## Tecnologias Utilizadas
+
+- Linguagem: SQL
+- Banco de Dados: SQLite
+- Bibliotecas Python:
+  - pandas (para carregar arquivos CSV e manipulação de dados)
+  - sqlite3 (para interagir com o banco de dados SQLite)
+- Ferramenta de Desenvolvimento: Spyder (IDE Python)
+
+## Como Instalar e Usar
+
+1. Clone o repositório:
+   git clone https://github.com/seu-usuario/bike-stores-inc-dba-challenge.git
+
+2. Instale as bibliotecas, se necessário:
+   pip install pandas
+   pip install sqlite3
+
+3. Prepare o ambiente: Os arquivos CSV (como brands.csv, customers.csv, etc.) precisam estar na mesma pasta que o script Python ou você pode modificar o caminho nos arquivos do código para apontar para a localização correta.
+
+4. Execute o script Python:
+   python main.py
+
+5. Verifique os resultados: O script irá imprimir os resultados das consultas no terminal.
+
+# Python
+*.pyc
+__pycache__
+
+# Banco de Dados SQLite
+*.db
+
+# Arquivos de configuração IDE
+.idea/
+.vscode/
+
+# Outros arquivos temporários
+*.log
+
+This is a challenge by Coodesh
